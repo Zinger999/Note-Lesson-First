@@ -1,4 +1,4 @@
-package ui;
+package ui
 
-public class Commands {
+class Commands {
 }
