@@ -5,14 +5,15 @@ fun main(args: Array<String>) {
     val userCommands = UserCommands()
     while (true) {
         println("Ввведите команду")
-        println("1 - Добавление категорий")
-        println("2 - Добавление заметок")
+        println("1 - Добавить категорию")
+        println("2 - Добавить заметку")
         println("3 - Список категорий")
         println("4 - Список заметок")
         println("5 - Изменить категорию")
         println("6 - Изменить заметку")
         println("7 - Добавить в избранное")
         println("8 - Показать избранное")
+        println("Выберите пункт: ")
         val command = readln().toIntOrNull()
         when(command) {
             1 -> userCommands.addCategory()

@@ -1,7 +1,7 @@
 package ui
 
-import data.database
-import domain.Controller
+import data.DataBase
+import domain.CategoryController
 import models.Category
 
 class UserCommands {

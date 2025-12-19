@@ -15,7 +15,7 @@ class DataBase {
         for (i in 0 until 5) {
             categories.add(
                 Category(
-                    name = "category $i",
+                    name = "Категория: $i",
                     notes = getMockNotesList()
                 )
             )
