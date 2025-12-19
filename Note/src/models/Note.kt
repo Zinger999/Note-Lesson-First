@@ -1,4 +1,7 @@
 package models
 
-class Note {
-}
+data class Note (
+    val name: String,
+    val description: String,
+    val date: String,
+)
